@@ -1,6 +1,6 @@
 {
   "vaultName": "website",
-  "lastExport": 1764930083857,
+  "lastExport": 1764932888112,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon img-adj-list",
   "useCustomHeadContent": true,
@@ -100,10 +100,12 @@
     "pages/fipi-2026.md",
     "pages/for-students.md",
     "pages/homework.md",
+    "pages/math.md",
     "pages/math-problems.md",
     "pages/mathematics-materials.md",
     "pages/notes.md",
     "pages/schedule.md",
+    "pages/sicp-racket.md",
     "pages/weekly-variants-ege.md",
     "latex.html",
     "mishatrub.ru.md",
@@ -188,837 +190,849 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/MathJax_Zero.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/293fd13dbca5a3e450ef.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 105924,
       "exportedPath": "lib/fonts/293fd13dbca5a3e450ef.woff2",
       "dependencies": []
     },
     "lib/fonts/085cb93e613ba3d40d2b.woff2": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 112184,
       "exportedPath": "lib/fonts/085cb93e613ba3d40d2b.woff2",
       "dependencies": []
     },
     "files/Книги/Как делать полезные заметки (Зонке Аренс).pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1993764,
       "exportedPath": "files/Книги/Как делать полезные заметки (Зонке Аренс).pdf",
       "dependencies": []
     },
     "files/Книги/Как привести дела в порядок (Дэвид Аллен).pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 2301313,
       "exportedPath": "files/Книги/Как привести дела в порядок (Дэвид Аллен).pdf",
       "dependencies": []
     },
     "files/Excalidraw/Drawing 2025-11-06 07.43.59.excalidraw.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 6184,
       "exportedPath": "files/Excalidraw/Drawing 2025-11-06 07.43.59.excalidraw.html",
       "dependencies": []
     },
     "files/Excalidraw 1/Drawing 2025-11-13 09.37.38.excalidraw.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 10911,
       "exportedPath": "files/Excalidraw 1/Drawing 2025-11-13 09.37.38.excalidraw.html",
       "dependencies": []
     },
     "files/Excalidraw 1/image-2.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 6475,
       "exportedPath": "files/Excalidraw 1/image-2.png",
       "dependencies": []
     },
     "files/Excalidraw 1/image-3.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 7699,
       "exportedPath": "files/Excalidraw 1/image-3.png",
       "dependencies": []
     },
     "files/PDF/М9-1-01.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 478280,
       "exportedPath": "files/PDF/М9-1-01.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-1-22.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 450097,
       "exportedPath": "files/PDF/М9-1-22.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-1-24.09.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 492077,
       "exportedPath": "files/PDF/М9-1-24.09.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-1-29.09.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 471401,
       "exportedPath": "files/PDF/М9-1-29.09.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-2-03.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 481262,
       "exportedPath": "files/PDF/М9-2-03.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-2-24.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 453775,
       "exportedPath": "files/PDF/М9-2-24.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-2-26.09.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 491923,
       "exportedPath": "files/PDF/М9-2-26.09.25.pdf",
       "dependencies": []
     },
     "files/PDF/М9-2-29.09.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 471401,
       "exportedPath": "files/PDF/М9-2-29.09.25.pdf",
       "dependencies": []
     },
     "files/PDF/М11-1-01.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 269128,
       "exportedPath": "files/PDF/М11-1-01.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М11-1-03.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 121055,
       "exportedPath": "files/PDF/М11-1-03.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М11-2-01.10.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 120228,
       "exportedPath": "files/PDF/М11-2-01.10.25.pdf",
       "dependencies": []
     },
     "files/PDF/М11-2-29.09.25.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 269128,
       "exportedPath": "files/PDF/М11-2-29.09.25.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-1-2025-09-08.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 173095,
       "exportedPath": "files/PDF/hw-m9-1-2025-09-08.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-1-2025-09-10.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 271045,
       "exportedPath": "files/PDF/hw-m9-1-2025-09-10.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-1-2025-09-15.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 386272,
       "exportedPath": "files/PDF/hw-m9-1-2025-09-15.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-2-2025-09-08.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 176499,
       "exportedPath": "files/PDF/hw-m9-2-2025-09-08.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-2-2025-09-12.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 118451,
       "exportedPath": "files/PDF/hw-m9-2-2025-09-12.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-2-2025-09-15.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 386267,
       "exportedPath": "files/PDF/hw-m9-2-2025-09-15.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-2025-09-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 319413,
       "exportedPath": "files/PDF/hw-m9-2025-09-22.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-2025-09-29.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 592809,
       "exportedPath": "files/PDF/hw-m9-2025-09-29.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m9-2025-10-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 566236,
       "exportedPath": "files/PDF/hw-m9-2025-10-22.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-1-2025-09-03.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 570386,
       "exportedPath": "files/PDF/hw-m11-1-2025-09-03.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-1-2025-09-10.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 280527,
       "exportedPath": "files/PDF/hw-m11-1-2025-09-10.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-1-2025-09-12.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 125029,
       "exportedPath": "files/PDF/hw-m11-1-2025-09-12.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-1-2025-09-17.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 303899,
       "exportedPath": "files/PDF/hw-m11-1-2025-09-17.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-1-2025-09-19.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 419450,
       "exportedPath": "files/PDF/hw-m11-1-2025-09-19.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2-2025-09-03.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 570386,
       "exportedPath": "files/PDF/hw-m11-2-2025-09-03.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2-2025-09-08.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 267802,
       "exportedPath": "files/PDF/hw-m11-2-2025-09-08.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2-2025-09-10.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 279713,
       "exportedPath": "files/PDF/hw-m11-2-2025-09-10.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2-2025-09-17.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 419450,
       "exportedPath": "files/PDF/hw-m11-2-2025-09-17.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2025-09-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 294578,
       "exportedPath": "files/PDF/hw-m11-2025-09-22.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2025-10-01.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 596372,
       "exportedPath": "files/PDF/hw-m11-2025-10-01.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2025-10-08.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 649101,
       "exportedPath": "files/PDF/hw-m11-2025-10-08.pdf",
       "dependencies": []
     },
     "files/PDF/hw-m11-2025-10-20.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 545928,
       "exportedPath": "files/PDF/hw-m11-2025-10-20.pdf",
       "dependencies": []
     },
     "files/Вариант М1.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1145084,
       "exportedPath": "files/Вариант М1.pdf",
       "dependencies": []
     },
     "files/Вариант М2.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 496860,
       "exportedPath": "files/Вариант М2.pdf",
       "dependencies": []
     },
     "files/Вариант М3.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 166513,
       "exportedPath": "files/Вариант М3.pdf",
       "dependencies": []
     },
     "files/Вариант М4.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1873711,
       "exportedPath": "files/Вариант М4.pdf",
       "dependencies": []
     },
     "files/Вариант Ф1.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 797727,
       "exportedPath": "files/Вариант Ф1.pdf",
       "dependencies": []
     },
     "files/Вариант Ф2.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 924998,
       "exportedPath": "files/Вариант Ф2.pdf",
       "dependencies": []
     },
     "files/concept-of-derivative-1.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1843,
       "exportedPath": "files/concept-of-derivative-1.png",
       "dependencies": []
     },
     "files/concept-of-derivative-2.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 2410,
       "exportedPath": "files/concept-of-derivative-2.png",
       "dependencies": []
     },
     "files/concept-of-derivative-3.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 4043,
       "exportedPath": "files/concept-of-derivative-3.png",
       "dependencies": []
     },
     "files/hw-m5-2025-09-24.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 703480,
       "exportedPath": "files/hw-m5-2025-09-24.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-09-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 319413,
       "exportedPath": "files/hw-m9-2025-09-22.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-09-24.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 700975,
       "exportedPath": "files/hw-m9-2025-09-24.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-09-29.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 592809,
       "exportedPath": "files/hw-m9-2025-09-29.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-01.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 713900,
       "exportedPath": "files/hw-m9-2025-10-01.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-06.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 835171,
       "exportedPath": "files/hw-m9-2025-10-06.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-08.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1624975,
       "exportedPath": "files/hw-m9-2025-10-08.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-13.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1025738,
       "exportedPath": "files/hw-m9-2025-10-13.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-15.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1508409,
       "exportedPath": "files/hw-m9-2025-10-15.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-20.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 657179,
       "exportedPath": "files/hw-m9-2025-10-20.pdf",
       "dependencies": []
     },
     "files/hw-m9-2025-10-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 566236,
       "exportedPath": "files/hw-m9-2025-10-22.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-09-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 294578,
       "exportedPath": "files/hw-m11-2025-09-22.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-09-24.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 651156,
       "exportedPath": "files/hw-m11-2025-09-24.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-09-29.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 728666,
       "exportedPath": "files/hw-m11-2025-09-29.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-01.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 596372,
       "exportedPath": "files/hw-m11-2025-10-01.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-01 1.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 830631,
       "exportedPath": "files/hw-m11-2025-10-01 1.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-08.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 649101,
       "exportedPath": "files/hw-m11-2025-10-08.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-13.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 664903,
       "exportedPath": "files/hw-m11-2025-10-13.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-15.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1494053,
       "exportedPath": "files/hw-m11-2025-10-15.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-20.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 545928,
       "exportedPath": "files/hw-m11-2025-10-20.pdf",
       "dependencies": []
     },
     "files/hw-m11-2025-10-22.pdf": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1162933,
       "exportedPath": "files/hw-m11-2025-10-22.pdf",
       "dependencies": []
     },
     "files/image.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 24879,
       "exportedPath": "files/image.png",
       "dependencies": []
     },
     "files/image 1.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 5379,
       "exportedPath": "files/image 1.png",
       "dependencies": []
     },
     "files/image-1.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 26858,
       "exportedPath": "files/image-1.png",
       "dependencies": []
     },
     "files/image-1 1.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 8576,
       "exportedPath": "files/image-1 1.png",
       "dependencies": []
     },
     "files/image-2.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 33808,
       "exportedPath": "files/image-2.png",
       "dependencies": []
     },
     "files/image-3.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 33808,
       "exportedPath": "files/image-3.png",
       "dependencies": []
     },
     "files/image-4.png": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 33279,
       "exportedPath": "files/image-4.png",
       "dependencies": []
     },
     "pages/Максимум и минимум функции.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 632,
       "exportedPath": "pages/Максимум и минимум функции.html",
       "dependencies": []
     },
     "pages/Обо мне.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 997,
       "exportedPath": "pages/Обо мне.html",
       "dependencies": []
     },
     "pages/Обратная связь.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 305,
       "exportedPath": "pages/Обратная связь.html",
       "dependencies": []
     },
     "pages/ОГЭ.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 0,
       "exportedPath": "pages/ОГЭ.html",
       "dependencies": []
     },
     "pages/Пеликан.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 316,
       "exportedPath": "pages/Пеликан.html",
       "dependencies": []
     },
     "pages/Понятие производной.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 2145,
       "exportedPath": "pages/Понятие производной.html",
       "dependencies": []
     },
     "pages/Решение простейших тригонометрических уравнений.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 0,
       "exportedPath": "pages/Решение простейших тригонометрических уравнений.html",
       "dependencies": []
     },
     "pages/Тренажёр по заданиям.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 171,
       "exportedPath": "pages/Тренажёр по заданиям.html",
       "dependencies": []
     },
     "pages/concept-of-derivative.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 668,
       "exportedPath": "pages/concept-of-derivative.html",
       "dependencies": []
     },
     "pages/concept-of-derivative 1.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 5517,
       "exportedPath": "pages/concept-of-derivative 1.html",
       "dependencies": []
     },
     "pages/ege-2026.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 747,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 750,
       "exportedPath": "pages/ege-2026.html",
       "dependencies": []
     },
     "pages/exercise-11.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 1463,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 1466,
       "exportedPath": "pages/exercise-11.html",
       "dependencies": []
     },
     "pages/exercise-12.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 952,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 955,
       "exportedPath": "pages/exercise-12.html",
       "dependencies": []
     },
     "pages/exercise-12-yashchenko-2026.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 7558,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 7561,
       "exportedPath": "pages/exercise-12-yashchenko-2026.html",
       "dependencies": []
     },
     "pages/fipi-2026.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 11067,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 11070,
       "exportedPath": "pages/fipi-2026.html",
       "dependencies": []
     },
     "pages/for-students.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 632,
       "exportedPath": "pages/for-students.html",
       "dependencies": []
     },
     "pages/homework.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 3473,
       "exportedPath": "pages/homework.html",
       "dependencies": []
     },
     "pages/math-problems.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 483,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 486,
       "exportedPath": "pages/math-problems.html",
       "dependencies": []
     },
     "pages/mathematics-materials.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 557,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 515,
       "exportedPath": "pages/mathematics-materials.html",
       "dependencies": []
     },
     "pages/notes.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 470,
       "exportedPath": "pages/notes.html",
       "dependencies": []
     },
     "pages/schedule.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 831,
       "exportedPath": "pages/schedule.html",
       "dependencies": []
     },
     "pages/weekly-variants-ege.md": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 1677,
       "exportedPath": "pages/weekly-variants-ege.html",
       "dependencies": []
     },
     "latex.html": {
-      "modifiedTime": 1764930083857,
+      "modifiedTime": 1764932888112,
       "sourceSize": 417,
       "exportedPath": "latex.html",
       "dependencies": []
     },
     "mishatrub.ru.md": {
-      "modifiedTime": 1764930083857,
-      "sourceSize": 976,
+      "modifiedTime": 1764932888112,
+      "sourceSize": 1246,
       "exportedPath": "mishatrub.ru.html",
+      "dependencies": []
+    },
+    "pages/math.md": {
+      "modifiedTime": 1764932888112,
+      "sourceSize": 392,
+      "exportedPath": "pages/math.html",
+      "dependencies": []
+    },
+    "pages/sicp-racket.md": {
+      "modifiedTime": 1764932888112,
+      "sourceSize": 468,
+      "exportedPath": "pages/sicp-racket.html",
       "dependencies": []
     }
   }
